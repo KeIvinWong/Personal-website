@@ -1,0 +1,14 @@
+# Specify language for Linguist
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+*.css linguist-language=CSS
+
+# Handle line endings
+* text=auto
+
+# Treat lock files as text
+# *.lock text
