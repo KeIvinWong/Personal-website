@@ -1,4 +1,4 @@
-import fish from '../assets/fish.jpg';  
+import fish from '../../assets/fish.jpg';  
 
 function Card(){
     return(
