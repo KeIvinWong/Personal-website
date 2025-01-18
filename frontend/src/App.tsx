@@ -1,15 +1,20 @@
-import Card from "./Components/Card"
-import Footer from "./Footer"
-import Header from "./Header"
+// App.tsx
+import React from 'react';
+import ProjectBanner from './Components/Banner/ProjectBanner';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Card/>
-      <Footer />
-    </>
-  )
-}
+const App: React.FC = () => {
+    return (
+        <>
 
-export default App
+            <ProjectBanner
+                title="Project Title"
+                description="This is a brief description of the project."
+                backgroundImage="#"
+                demoVideo="#"
+            />
+            {/* Add more sections or components here */}
+        </>
+    );
+};
+
+export default App;

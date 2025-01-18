@@ -1,0 +1,33 @@
+.projectBanner {
+    position: relative;
+    height: auto; /* Allow auto height to fit content */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: relative; /* Allow expansion */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for color filtering */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Ensure it takes full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.videoContainer {
+    padding: 15px 10%;
+    max-width: 864px;
+    width: 100%; /* Ensure container is full width */
+    display: flex; /* Use flex to center the video */
+    justify-content: center; /* Center the video horizontally */
+}
+
+.reactPlayer {
+    height: 400px; /* You can adjust this value as needed */
+    max-height: 80vh; /* Maximum height relative to the viewport */
+}
